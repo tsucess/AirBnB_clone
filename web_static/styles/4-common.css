@@ -11,4 +11,5 @@ body{
 .container{
 	max-width: 1000px;
 	margin: 30px auto;
+	margin-bottom: 100px; /**Included by my self*/
 }
