@@ -68,12 +68,75 @@
 	display: block;
 }
 
-ul{
-	list-style: none;
+
+.filters h2 {
+	font-size: 16px;
+} 
+
+
+@media (max-width:425px) {
+	.filters{
+		margin: auto;
+		width: 95%;
+	}
+
+
+	.filters button{
+		font-size: 14px;
+		height: 48px;
+		margin-right: 10px;	
+	}
+
+	.filters .locations, .filters .amenities{
+		width: 30%;
+		padding-top: 0px;
+		line-height: 1;
+	}
+
+
+	.filters h3{
+		margin-top: 20px;
+		padding-left: 10px;
+	}
+	
+	.filters h4{
+		font-size: 12px;
+		padding-left: 10px;
+		margin-bottom: 18px;
+	}
+
+	.popover ul, .popover h2{
+		margin-left: -20px;
+	}
+	.popover ul{
+		margin-left: -60px;
+	}
+
+	.filters h2 {
+		font-size: 14px;
+	} 
+
 }
 
 
+@media (max-width:375px) {
+	.amenities .popover {
+		margin-top: -12px;
+	}
+}
 
-h2 {
-	font-size: 16px;
-} 
+@media (max-width:320px) {
+	.filters h3{
+		font-size: 13px;
+	}
+	
+	.filters h4{
+		font-size: 10px;
+	}
+.popover {
+		margin-top: 22px;
+	}
+.amenities .popover {
+		margin-top: -6px;
+	}
+}

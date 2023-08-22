@@ -25,10 +25,12 @@ article{
 
 .heading{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
+
 .heading h2{
 	font-size: 30px;
+	padding-left: 20px;
 }
 
 .places .price_by_night{	
@@ -40,22 +42,23 @@ article{
 	font-size: 30px;
 	margin-bottom: 15px;
 }
+
 .places .price_by_night p{
 	margin-top: 10px;
 	padding: 5px;
 }
 
 .information {
+	display: flex;
+	justify-content: space-evenly;
 	height: 80px;
 	border-top: 1px solid #dddddd;
 	border-bottom: 1px solid #dddddd;
 	padding: 20px;
-	clear: both;
-	
+	text-align: center;
 }
 
 .max_guest, .number_rooms, .number_bathrooms{
-	display: inline-block;
 	width: 100px;
 }
 
@@ -66,18 +69,16 @@ article{
 	background-position: center;
 	margin: auto;
 }
+
 .max_guest #icon_group{
 	background-image: url(../images/icon_group.png);
-	
 }
 
 .number_rooms #icon_bed{
 	background-image: url(../images/icon_bed.png);
-
 }
 .number_bathrooms #icon_bath{
 	background-image: url(../images/icon_bath.png);
-
 }
 
 .user, .description {
@@ -85,7 +86,7 @@ article{
 	line-height: 1.5;
 }
 
-.places .amenities, .reviews {
+.places .amenities, .places .reviews {
 	margin-top: 40px;
 	text-align: left;
 }

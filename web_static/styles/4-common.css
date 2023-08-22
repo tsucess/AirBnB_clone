@@ -13,3 +13,7 @@ body{
 	margin: 30px auto;
 	margin-bottom: 100px; /**Included by my self*/
 }
+
+ul {
+	list-style: none;
+}
