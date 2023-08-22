@@ -42,25 +42,25 @@
 .filters h3{
 	font-weight: 600;
 	margin-top: 12px;
-	margin-bottom: 5px;	
 	padding-left: 45px;
 }
 
 .filters h4{
 	font-weight: 400;
 	font-size: 14px;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin-top: -10px;
+	margin-bottom: 30px;
 	padding-left: 45px;
 }
 
-.popover{
+ul.popover{
 	display: none;
 	background-color: #fafafa;
 	border: 1px solid #dddddd;
 	border-radius: 4px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	margin-top: -17px;
 }
 
 
@@ -74,12 +74,30 @@
 } 
 
 
-@media (max-width:425px) {
+@media (max-width:649px) {
+
+	.filters h3{
+		margin-left: -30px;
+	}
+	
+	.filters h4{
+		font-size: 12px;
+		margin-left: -30px;
+	}
+	.popover ul, .popover h2{
+		margin-left: -20px;
+		line-height: 1.5;
+	}
+	.popover ul{
+		margin-left: -60px;
+	}
+}
+
+@media (max-width:464px) {
 	.filters{
 		margin: auto;
 		width: 95%;
 	}
-
 
 	.filters button{
 		font-size: 14px;
@@ -90,27 +108,14 @@
 	.filters .locations, .filters .amenities{
 		width: 30%;
 		padding-top: 0px;
-		line-height: 1;
 	}
 
 
 	.filters h3{
-		margin-top: 20px;
-		padding-left: 10px;
+		margin-top: 10px;
+		padding-left: -10px;
 	}
 	
-	.filters h4{
-		font-size: 12px;
-		padding-left: 10px;
-		margin-bottom: 18px;
-	}
-
-	.popover ul, .popover h2{
-		margin-left: -20px;
-	}
-	.popover ul{
-		margin-left: -60px;
-	}
 
 	.filters h2 {
 		font-size: 14px;
@@ -120,8 +125,9 @@
 
 
 @media (max-width:375px) {
-	.amenities .popover {
-		margin-top: -12px;
+	
+	.filters h4{
+		font-size: 12px;
 	}
 }
 
@@ -131,12 +137,18 @@
 	}
 	
 	.filters h4{
-		font-size: 10px;
+		font-size: 9px;
 	}
-.popover {
-		margin-top: 22px;
+
+	.popover ul, .popover h2{
+		font-size: 12px;
+		margin-left: -24px;
 	}
-.amenities .popover {
-		margin-top: -6px;
+	.popover ul{
+		margin-left: -64px;
+	}
+
+	.amenities .popover{
+		padding: 15px;
 	}
 }
