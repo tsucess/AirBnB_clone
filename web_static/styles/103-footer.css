@@ -1,10 +1,10 @@
-footer {
+footer{
 	position: fixed;
 	bottom: 0;
-	background-color: white;
+	background-color: #ffffff;
 	height: 60px;
 	width: 100%;
+	border-top: 1px solid #cccccc;
 	text-align: center;
 	line-height: 30px;
-	border-top: 1px solid #CCCCCC;
 }
