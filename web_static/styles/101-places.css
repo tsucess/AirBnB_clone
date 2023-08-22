@@ -1,13 +1,14 @@
 .places{
 	display: flex;
 	flex-flow: column wrap;
-
+	padding: 20px;
 }
 
 .articles{
 	display: flex;
 	flex-flow: row wrap;
 	width: 100%;
+	justify-content: center;
 }
 
 .places h1{
